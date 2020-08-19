@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <p className="App">
+      This was spun up using create-react-app. I've attempted to strip it down to the barest minimum needed for this mini-project.
+
+      Navigate to src/index.js. Look at where it renders our App inside the element it finds by the id "root"
+
+      Navigate to public/index.html. Find the element with id of root.
+
+      Can you understand how this all links together?
+    </p>
   );
 }
 
