@@ -12,6 +12,8 @@ function App() {
 
         Navigate to public/index.html. Find the element with id of root.
 
+        In the .env file, the dev port is specified.
+
         Can you understand how this all links together?
         `}
     </pre>
