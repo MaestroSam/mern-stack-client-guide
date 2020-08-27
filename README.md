@@ -75,18 +75,32 @@ Interesting reads
 
 React
 * [Source code is on branch: challenge-4-react](https://github.com/Nnadozie/mern-stack-client-guide/tree/challenge-4-react)
-* [Source code is deployed here with Netlify](https://uber-clone-c4-react.netlify.app/) It gives a brief explanation.
+* [Source code is deployed here with Netlify](https://uber-clone-c4-react.netlify.app/). Click to see a brief explanation.
 
 Angular
 * [Source code is on branch: challenge-4-angular](https://github.com/Nnadozie/mern-stack-client-guide/tree/challenge-4-angular)
-* [Source code is deployed here with Netlify](https://uber-clone-c4-angular.netlify.app/) It gives a brief explanation.
+* [Source code is deployed here with Netlify](https://uber-clone-c4-angular.netlify.app/). Click to see an explanation.
 
 
 <br><br><br>
 
 
-### Challenge 5 (Rating: Medium)
-Loading...
+### Challenge 5 (Rating: HARD)
+
+* Build out the footer section of the uber homepage and implement the select preferred language feature using the endpoints you created in challenges 1 - 3.
+* When a user selects english, the text should change to english. When they select another language, it should change appropriately.
+* Use either React or Angular.
+* By the end of this challenge, you should be able to do the following with your app running in development mode:
+
+![Uber Clone](https://media.giphy.com/media/UUyZcFrQZdl4VZD1W3/giphy.gif)
+  
+Why do this challenge?
+* The idea behind this challenge is to get you to consume an API from a client.
+* In the process, you're also challeged to build out the html and css.
+
+* Remember to make it responsive ^_^.
+
+ Course recommendations coming soon.
 
 <br><br><br>
 
