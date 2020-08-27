@@ -1,0 +1,71 @@
+<pre style="padding: 5%; padding-top: 1%; white-space: pre-wrap; word-wrap: break-word; font-size: 1rem; font-family: Roboto;">
+  <h1>Challenge 4's Example Explained</h1>
+
+  Angular is a bit more complicated than React, and fundamentally different. Angular is a framework, more like Express, while React is a library.
+  
+  Technically, you can use React in Angular, but why would you?.
+  
+  
+  
+  <h2>Let's figure out what went on in challlenge 4</h2>
+  <h3><b>CONFIGURING OUR PORT</b></h3>
+
+  If you read the docs correctly, you'll have figured out that this happens in angular.json or using  <code style="background: pink;">ng serve --port</code>. Basically,
+  
+  the docs say that any <code style="background: pink;">option</code> in <code style="background: pink;">ng serve --&lt;option&gt;</code> can be included in the serve block as a property.
+  
+  So instead of using <code style="background: pink;">ng serve --port 8001</code>, I've set "port": 8001 in the serve block in the angular.json file.
+
+  <code style="background: pink; display: block;">
+    "serve": {{'{'}}
+    "builder": "@angular-devkit/build-angular:dev-server",
+    "options": {{'{'}}
+    "browserTarget": "mern-stack-guide-client:build",
+    "port": 8001
+    {{'}'}},
+    ...
+  </code>
+
+  🌟 If you figured that out by using the Angular docs, welldone, you know how to read docs.
+
+  <h3><b>WHERE DOES OUR APP START?</b></h3>
+
+  At main.ts
+  
+  - main.ts imports AppModule.
+  - AppModule imports AppComponent.
+  - AppComponent selects app-root as it's containing element.
+  - AppComponent renders it's template: app.component.html, in &lt;app-root&gt;&lt;/app-root&gt;.
+  - Can you find app-root in index.html?
+
+  <h3><b>Okay, there's a bit more: css and assets</b></h3>
+
+  In order to access global context css and assets in our index.html or our component templates, we need to tell webpack (read angular) where to find them.
+
+  We do that in the angular.json config file, within the architect block. Take a look:
+  
+  <code style="background: pink; display: block;">
+      "architect": {{'{'}}
+        "build": {{'{'}}
+          ...
+          "options": {{'{'}}
+            ...
+            "assets": [
+            "src/assets"
+            ],
+            "styles": [
+            "src/styles.css"
+            ],
+            "scripts": []
+      },
+  </code>
+
+  Here, we're saying that webpack should include the files src/assets, and src/styles.css in the global context for use in our angular app.
+  
+  The <a href="https://angular.io/guide/workspace-config#default-build-targets">angluar doc has more on this</a>
+
+  <img src="https://user-images.githubusercontent.com/15310842/91458286-3a023280-e87d-11ea-8f05-4acb73dd0499.png"/>
+
+  And that's about it for explanations.
+
+</pre>
