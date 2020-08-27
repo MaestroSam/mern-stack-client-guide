@@ -46,6 +46,8 @@ There'll be personally reviewed recommended courses that help guide you along. Y
 
 ### [Get Started here with challenges 1 - 3](https://github.com/Nnadozie/mern-stack-guided-project)
 
+<br>
+
 ### Challenge 4 (Rating: Easy)
 
 It's front-end time! Here's where things get exciting ^_^, and also a good time to start brushing up on your CSS!
