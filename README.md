@@ -41,8 +41,7 @@ Here's what to expect:
 
 There'll be personally reviewed recommended courses that help guide you along. You can expect that we'd have done these courses to assess them before recommending.
 
-<br><br><br>
-
+<br>
 
 
 ### [Get Started here with challenges 1 - 3](https://github.com/Nnadozie/mern-stack-guided-project)
@@ -59,8 +58,6 @@ Why do this challenge?
 
 * Sure, you'll easily find out how to do this on Stackoverflow, but if you can challenge yourself to figure it out using just their docs, then you've learned a transferable skill.
 
-* Also, to run multiple apps that communicate with eachother at the same time, they need to run on different ports.
-
 Recommended
 * For react: [getting-started-with-react](https://www.taniarascia.com/getting-started-with-react/), [create-react-app advanced configuration](https://create-react-app.dev/docs/advanced-configuration)
 * If you choose Angular: [Angular Fundamentals sections 1-2](https://app.pluralsight.com/library/courses/angular-fundamentals/table-of-contents), [Angular Workspace Configuration](https://angular.io/guide/workspace-config)
@@ -70,9 +67,21 @@ Interesting reads
 * [FullStack Development with M.E.R.N Stack: Part 1](https://levelup.gitconnected.com/a-complete-guide-build-a-scalable-3-tier-architecture-with-mern-stack-es6-ca129d7df805)
 * [I built a M.E.R.N codebase in an hour](https://levelup.gitconnected.com/i-built-a-m-e-r-n-codebase-in-an-hour-742acd71ed7e)
 
-<br><br><br>
+<br>
 
 ### Challenge 4 Example
+
+React
+* [Source code is on branch: challenge-4-react](https://github.com/Nnadozie/mern-stack-client-guide/tree/challenge-4-react)
+* [Source code is deployed here with Netlify](https://uber-clone-c4-react.netlify.app/) It gives a brief explanation.
+
+Angular
+* [Source code is on branch: challenge-4-angular](https://github.com/Nnadozie/mern-stack-client-guide/tree/challenge-4-angular)
+* [Source code is deployed here with Netlify](https://uber-clone-c4-angular.netlify.app/) It gives a brief explanation.
+
+
+<br><br><br>
+
 
 ### Challenge 5 (Rating: Medium)
 Loading...
